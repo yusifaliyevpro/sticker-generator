@@ -1,4 +1,5 @@
 const quoteApi = require("@neoxr/quote-api");
+const { registerCustomFonts } = require("../fonts");
 exports.routes = {
   category: "main",
   path: "/",
@@ -6,7 +7,7 @@ exports.routes = {
   method: "post",
   execution: async (req, res, next) => {
     try {
-      console.log(req.body);
+      registerCustomFonts();
       const json = await quoteApi(req.body);
       if (!json.image)
         return res.json({

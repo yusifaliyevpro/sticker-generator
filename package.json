@@ -1,10 +1,8 @@
 {
-  "name": "@neoxr/quote-generator",
+  "name": "sticker-generator",
   "version": "1.0.0",
-  "description": "Quote Generator from LyoSU",
   "main": "index.js",
-  "repository": "https://github.com/neoxr/quote-generator",
-  "author": "Wildan Izzudin",
+  "author": "Yusif Aliyev",
   "license": "MIT",
   "dependencies": {
     "@neoxr/quote-api": "1.1.1-dev",
