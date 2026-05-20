@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Yusif Aliyev",
   "license": "MIT",
+  "packageManager": "pnpm@11.1.3",
   "dependencies": {
     "@neoxr/quote-api": "1.1.1-dev",
     "body-parser": "1.20.2",
