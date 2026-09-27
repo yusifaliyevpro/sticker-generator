@@ -4,12 +4,6 @@
   "license": "MIT",
   "author": "Yusif Aliyev",
   "type": "module",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.x"
-    }
-  },
   "scripts": {
     "dev": "node --watch src/index.ts",
     "start": "node src/index.ts",
@@ -32,6 +26,12 @@
     "oxfmt": "0.70.0",
     "oxlint": "1.85.0",
     "typescript": "5.9.3"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.x"
+    }
   },
   "engines": {
     "node": ">=24"
