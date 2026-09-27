@@ -20,7 +20,7 @@ app.use(express.json({ limit: "10mb" }));
 app.use(morgan("dev"));
 
 app.get("/", (_req, res) => {
-  res.json({ creator, msg: { script: "https://github.com/neoxr/quote-generator" } });
+  res.json({ creator, msg: { script: "https://github.com/yusifaliyevpro/sticker-generator" } });
 });
 
 app.post("/", async (req, res) => {
