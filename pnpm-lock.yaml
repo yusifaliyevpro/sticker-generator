@@ -13,16 +13,16 @@ importers:
     dependencies:
       '@neoxr/quote-api':
         specifier: 1.1.1-dev
-        version: 1.1.1-dev(patch_hash=8c39df88e60362557776df8e16ed83d7e6e7e5f09d08c5429bc0cb0822f15fd0)(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1)
+        version: 1.1.1-dev(patch_hash=8c39df88e60362557776df8e16ed83d7e6e7e5f09d08c5429bc0cb0822f15fd0)(debug@4.4.3)
       canvas:
         specifier: 3.2.3
         version: 3.2.3
       express:
         specifier: 5.2.1
-        version: 5.2.1(supports-color@8.1.1)
+        version: 5.2.1
       morgan:
         specifier: 1.12.1
-        version: 1.12.1(supports-color@8.1.1)
+        version: 1.12.1
     devDependencies:
       '@types/express':
         specifier: 5.0.6
@@ -690,8 +690,8 @@ packages:
   dom-walk@0.1.2:
     resolution: {integrity: sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==}
 
-  dotenv@16.4.7:
-    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+  dotenv@16.6.1:
+    resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
     engines: {node: '>=12'}
 
   dunder-proto@1.0.1:
@@ -812,10 +812,6 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  has-flag@4.0.0:
-    resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
-    engines: {node: '>=8'}
-
   has-symbols@1.1.0:
     resolution: {integrity: sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==}
     engines: {node: '>= 0.4'}
@@ -823,10 +819,6 @@ packages:
   hasown@2.0.4:
     resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
-
-  http-errors@2.0.0:
-    resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
-    engines: {node: '>= 0.8'}
 
   http-errors@2.0.1:
     resolution: {integrity: sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ==}
@@ -1080,8 +1072,8 @@ packages:
     resolution: {integrity: sha512-h6fhOIaRrID2CbEY2fqs+7t+UXZo+MLAnU5gRIq85uFtdiUPCdsApMlHhXogKVM4HM2DVbIjGNTTYH2OcmP1vA==}
     engines: {node: '>=0.6'}
 
-  range-parser@1.2.1:
-    resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
+  range-parser@1.3.0:
+    resolution: {integrity: sha512-hek2mFQpPuI4E1BBKrSto+BU3e3x4xuarsbiwr3+lf7p44juvFMV0XFWQAP3xUyqXA4RrXLIoaSUGbSt056ZMw==}
     engines: {node: '>= 0.6'}
 
   raw-body@3.0.2:
@@ -1188,10 +1180,6 @@ packages:
   smartcrop@2.0.5:
     resolution: {integrity: sha512-aXoHTM8XlC51g96kgZkYxZ2mx09/ibOrIVLiUNOFozV/MHmFSgEr1/5CKVBoFD5vd+re2wSy0xra21CyjRITzA==}
 
-  statuses@2.0.1:
-    resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
-    engines: {node: '>= 0.8'}
-
   statuses@2.0.2:
     resolution: {integrity: sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==}
     engines: {node: '>= 0.8'}
@@ -1208,10 +1196,6 @@ packages:
 
   strtok3@6.3.0:
     resolution: {integrity: sha512-fZtbhtvI9I48xDSywd/somNqgUHl2L2cstmXCCif0itOf96jeW18MBSyrLuNicYQVkvpOxkZtkzujiTJ9LW5Jw==}
-    engines: {node: '>=10'}
-
-  supports-color@8.1.1:
-    resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
 
   tar-fs@2.1.5:
@@ -1325,14 +1309,14 @@ snapshots:
 
   '@babel/runtime@7.29.7': {}
 
-  '@jimp/bmp@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/bmp@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
       bmp-js: 0.1.0
 
-  '@jimp/core@0.16.13(debug@4.4.3(supports-color@8.1.1))':
+  '@jimp/core@0.16.13(debug@4.4.3)':
     dependencies:
       '@babel/runtime': 7.29.7
       '@jimp/utils': 0.16.13
@@ -1340,7 +1324,7 @@ snapshots:
       buffer: 5.7.1
       exif-parser: 0.1.12
       file-type: 16.5.4
-      load-bmfont: 1.4.2(debug@4.4.3(supports-color@8.1.1))
+      load-bmfont: 1.4.2(debug@4.4.3)
       mkdirp: 0.5.6
       phin: 2.9.3
       pixelmatch: 4.0.2
@@ -1348,225 +1332,225 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))':
+  '@jimp/custom@0.16.13(debug@4.4.3)':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/core': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/core': 0.16.13(debug@4.4.3)
     transitivePeerDependencies:
       - debug
 
-  '@jimp/gif@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/gif@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
       gifwrap: 0.9.4
       omggif: 1.0.10
 
-  '@jimp/jpeg@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/jpeg@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
       jpeg-js: 0.4.4
 
-  '@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-blur@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-blur@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-circle@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-circle@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-color@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-color@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
       tinycolor2: 1.6.0
 
-  '@jimp/plugin-contain@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))))':
+  '@jimp/plugin-contain@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-blit': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-scale': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-blit': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-scale': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-cover@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))))':
+  '@jimp/plugin-cover@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-crop': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-scale': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-crop': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-scale': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-displace@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-displace@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-dither@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-dither@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-fisheye@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-fisheye@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-flip@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-rotate@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))))':
+  '@jimp/plugin-flip@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-rotate@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-rotate': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-rotate': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-gaussian@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-gaussian@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-invert@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-invert@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-mask@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-mask@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-normalize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-normalize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-print@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(debug@4.4.3(supports-color@8.1.1))':
+  '@jimp/plugin-print@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(debug@4.4.3)':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-blit': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-blit': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
       '@jimp/utils': 0.16.13
-      load-bmfont: 1.4.2(debug@4.4.3(supports-color@8.1.1))
+      load-bmfont: 1.4.2(debug@4.4.3)
     transitivePeerDependencies:
       - debug
 
-  '@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-rotate@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))':
+  '@jimp/plugin-rotate@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-blit': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-crop': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-blit': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-crop': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))':
+  '@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-shadow@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blur@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))':
+  '@jimp/plugin-shadow@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blur@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-blur': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-blur': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugin-threshold@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-color@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))':
+  '@jimp/plugin-threshold@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-color@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-color': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-color': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
       '@jimp/utils': 0.16.13
 
-  '@jimp/plugins@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(debug@4.4.3(supports-color@8.1.1))':
+  '@jimp/plugins@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(debug@4.4.3)':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-blit': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-blur': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-circle': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-color': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-contain': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))))
-      '@jimp/plugin-cover': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))))
-      '@jimp/plugin-crop': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-displace': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-dither': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-fisheye': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-flip': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-rotate@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))))
-      '@jimp/plugin-gaussian': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-invert': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-mask': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-normalize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-print': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/plugin-rotate': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))
-      '@jimp/plugin-scale': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))
-      '@jimp/plugin-shadow': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-blur@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))
-      '@jimp/plugin-threshold': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(@jimp/plugin-color@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1))))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugin-blit': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-blur': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-circle': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-color': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-contain': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))))
+      '@jimp/plugin-cover': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-scale@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))))
+      '@jimp/plugin-crop': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-displace': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-dither': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-fisheye': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-flip': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-rotate@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))))
+      '@jimp/plugin-gaussian': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-invert': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-mask': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-normalize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-print': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(debug@4.4.3)
+      '@jimp/plugin-resize': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/plugin-rotate': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blit@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-crop@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))
+      '@jimp/plugin-scale': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))
+      '@jimp/plugin-shadow': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-blur@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))
+      '@jimp/plugin-threshold': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(@jimp/plugin-color@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))(@jimp/plugin-resize@0.16.13(@jimp/custom@0.16.13(debug@4.4.3)))
       timm: 1.7.1
     transitivePeerDependencies:
       - debug
 
-  '@jimp/png@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/png@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       '@jimp/utils': 0.16.13
       pngjs: 3.4.0
 
-  '@jimp/tiff@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/tiff@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
       utif: 2.0.1
 
-  '@jimp/types@0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))':
+  '@jimp/types@0.16.13(@jimp/custom@0.16.13(debug@4.4.3))':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/bmp': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/gif': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/jpeg': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/png': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
-      '@jimp/tiff': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
+      '@jimp/bmp': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/gif': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/jpeg': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/png': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
+      '@jimp/tiff': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
       timm: 1.7.1
 
   '@jimp/utils@0.16.13':
@@ -1574,18 +1558,18 @@ snapshots:
       '@babel/runtime': 7.29.7
       regenerator-runtime: 0.13.11
 
-  '@neoxr/quote-api@1.1.1-dev(patch_hash=8c39df88e60362557776df8e16ed83d7e6e7e5f09d08c5429bc0cb0822f15fd0)(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1)':
+  '@neoxr/quote-api@1.1.1-dev(patch_hash=8c39df88e60362557776df8e16ed83d7e6e7e5f09d08c5429bc0cb0822f15fd0)(debug@4.4.3)':
     dependencies:
-      dotenv: 16.4.7
+      dotenv: 16.6.1
       emoji-db: 14.0.1
-      jimp: 0.16.1(debug@4.4.3(supports-color@8.1.1))
+      jimp: 0.16.1(debug@4.4.3)
       lru-cache: 5.1.1
       object-sizeof: 2.6.5
       path: 0.12.7
       runes: 0.4.3
       sharp: 0.32.5
       smartcrop-sharp: 2.0.8(sharp@0.32.5)
-      telegraf: 4.16.3(supports-color@8.1.1)
+      telegraf: 4.16.3
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
@@ -1715,15 +1699,15 @@ snapshots:
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 16.9.1
+      '@types/node': 24.19.0
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 16.9.1
+      '@types/node': 24.19.0
 
   '@types/express-serve-static-core@5.1.3':
     dependencies:
-      '@types/node': 16.9.1
+      '@types/node': 24.19.0
       '@types/qs': 6.15.1
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
@@ -1738,7 +1722,7 @@ snapshots:
 
   '@types/morgan@1.9.10':
     dependencies:
-      '@types/node': 16.9.1
+      '@types/node': 24.19.0
 
   '@types/node@16.9.1': {}
 
@@ -1752,12 +1736,12 @@ snapshots:
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 16.9.1
+      '@types/node': 24.19.0
 
   '@types/serve-static@2.2.0':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 16.9.1
+      '@types/node': 24.19.0
 
   abort-controller@3.0.0:
     dependencies:
@@ -1815,11 +1799,11 @@ snapshots:
 
   bmp-js@0.1.0: {}
 
-  body-parser@2.3.0(supports-color@8.1.1):
+  body-parser@2.3.0:
     dependencies:
       bytes: 3.1.2
       content-type: 2.1.0
-      debug: 4.4.3(supports-color@8.1.1)
+      debug: 4.4.3
       http-errors: 2.0.1
       iconv-lite: 0.7.3
       on-finished: 2.4.1
@@ -1867,9 +1851,9 @@ snapshots:
       node-addon-api: 7.1.1
       prebuild-install: 7.1.3
 
-  centra@2.7.0(debug@4.4.3(supports-color@8.1.1)):
+  centra@2.7.0(debug@4.4.3):
     dependencies:
-      follow-redirects: 1.16.0(debug@4.4.3(supports-color@8.1.1))
+      follow-redirects: 1.16.0(debug@4.4.3)
     transitivePeerDependencies:
       - debug
 
@@ -1901,17 +1885,13 @@ snapshots:
 
   cookie@0.7.2: {}
 
-  debug@2.6.9(supports-color@8.1.1):
+  debug@2.6.9:
     dependencies:
       ms: 2.0.0
-    optionalDependencies:
-      supports-color: 8.1.1
 
-  debug@4.4.3(supports-color@8.1.1):
+  debug@4.4.3:
     dependencies:
       ms: 2.1.3
-    optionalDependencies:
-      supports-color: 8.1.1
 
   decompress-response@6.0.0:
     dependencies:
@@ -1925,7 +1905,7 @@ snapshots:
 
   dom-walk@0.1.2: {}
 
-  dotenv@16.4.7: {}
+  dotenv@16.6.1: {}
 
   dunder-proto@1.0.1:
     dependencies:
@@ -1969,22 +1949,22 @@ snapshots:
 
   expand-template@2.0.3: {}
 
-  express@5.2.1(supports-color@8.1.1):
+  express@5.2.1:
     dependencies:
       accepts: 2.0.0
-      body-parser: 2.3.0(supports-color@8.1.1)
+      body-parser: 2.3.0
       content-disposition: 1.1.0
       content-type: 1.0.5
       cookie: 0.7.2
       cookie-signature: 1.2.2
-      debug: 4.4.3(supports-color@8.1.1)
+      debug: 4.4.3
       depd: 2.0.0
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
-      finalhandler: 2.1.1(supports-color@8.1.1)
+      finalhandler: 2.1.1
       fresh: 2.0.0
-      http-errors: 2.0.0
+      http-errors: 2.0.1
       merge-descriptors: 2.0.0
       mime-types: 3.0.2
       on-finished: 2.4.1
@@ -1992,11 +1972,11 @@ snapshots:
       parseurl: 1.3.3
       proxy-addr: 2.0.8
       qs: 6.16.0
-      range-parser: 1.2.1
-      router: 2.2.0(supports-color@8.1.1)
-      send: 1.2.1(supports-color@8.1.1)
-      serve-static: 2.2.1(supports-color@8.1.1)
-      statuses: 2.0.1
+      range-parser: 1.3.0
+      router: 2.2.0
+      send: 1.2.1
+      serve-static: 2.2.1
+      statuses: 2.0.2
       type-is: 2.1.0
       vary: 1.1.2
     transitivePeerDependencies:
@@ -2010,20 +1990,20 @@ snapshots:
       strtok3: 6.3.0
       token-types: 4.2.1
 
-  finalhandler@2.1.1(supports-color@8.1.1):
+  finalhandler@2.1.1:
     dependencies:
-      debug: 4.4.3(supports-color@8.1.1)
+      debug: 4.4.3
       encodeurl: 2.0.0
       escape-html: 1.0.3
       on-finished: 2.4.1
       parseurl: 1.3.3
-      statuses: 2.0.1
+      statuses: 2.0.2
     transitivePeerDependencies:
       - supports-color
 
-  follow-redirects@1.16.0(debug@4.4.3(supports-color@8.1.1)):
+  follow-redirects@1.16.0(debug@4.4.3):
     optionalDependencies:
-      debug: 4.4.3(supports-color@8.1.1)
+      debug: 4.4.3
 
   forwarded@0.2.0: {}
 
@@ -2069,22 +2049,11 @@ snapshots:
     dependencies:
       jiti: 2.7.0
 
-  has-flag@4.0.0:
-    optional: true
-
   has-symbols@1.1.0: {}
 
   hasown@2.0.4:
     dependencies:
       function-bind: 1.1.2
-
-  http-errors@2.0.0:
-    dependencies:
-      depd: 2.0.0
-      inherits: 2.0.4
-      setprototypeof: 1.2.0
-      statuses: 2.0.1
-      toidentifier: 1.0.1
 
   http-errors@2.0.1:
     dependencies:
@@ -2118,12 +2087,12 @@ snapshots:
 
   is-promise@4.0.0: {}
 
-  jimp@0.16.1(debug@4.4.3(supports-color@8.1.1)):
+  jimp@0.16.1(debug@4.4.3):
     dependencies:
       '@babel/runtime': 7.29.7
-      '@jimp/custom': 0.16.13(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/plugins': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))(debug@4.4.3(supports-color@8.1.1))
-      '@jimp/types': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3(supports-color@8.1.1)))
+      '@jimp/custom': 0.16.13(debug@4.4.3)
+      '@jimp/plugins': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))(debug@4.4.3)
+      '@jimp/types': 0.16.13(@jimp/custom@0.16.13(debug@4.4.3))
       regenerator-runtime: 0.13.11
     transitivePeerDependencies:
       - debug
@@ -2132,14 +2101,14 @@ snapshots:
 
   jpeg-js@0.4.4: {}
 
-  load-bmfont@1.4.2(debug@4.4.3(supports-color@8.1.1)):
+  load-bmfont@1.4.2(debug@4.4.3):
     dependencies:
       buffer-equal: 0.0.1
       mime: 1.6.0
       parse-bmfont-ascii: 1.0.6
       parse-bmfont-binary: 1.0.6
       parse-bmfont-xml: 1.1.6
-      phin: 3.7.1(debug@4.4.3(supports-color@8.1.1))
+      phin: 3.7.1(debug@4.4.3)
       xhr: 2.6.0
       xtend: 4.0.2
     transitivePeerDependencies:
@@ -2177,10 +2146,10 @@ snapshots:
     dependencies:
       minimist: 1.2.8
 
-  morgan@1.12.1(supports-color@8.1.1):
+  morgan@1.12.1:
     dependencies:
       basic-auth: 2.0.1
-      debug: 2.6.9(supports-color@8.1.1)
+      debug: 2.6.9
       depd: 2.0.0
       on-finished: 2.4.1
       on-headers: 1.1.0
@@ -2303,9 +2272,9 @@ snapshots:
 
   phin@2.9.3: {}
 
-  phin@3.7.1(debug@4.4.3(supports-color@8.1.1)):
+  phin@3.7.1(debug@4.4.3):
     dependencies:
-      centra: 2.7.0(debug@4.4.3(supports-color@8.1.1))
+      centra: 2.7.0(debug@4.4.3)
     transitivePeerDependencies:
       - debug
 
@@ -2347,7 +2316,7 @@ snapshots:
       es-define-property: 1.0.1
       side-channel: 1.1.1
 
-  range-parser@1.2.1: {}
+  range-parser@1.3.0: {}
 
   raw-body@3.0.2:
     dependencies:
@@ -2383,9 +2352,9 @@ snapshots:
 
   regenerator-runtime@0.13.11: {}
 
-  router@2.2.0(supports-color@8.1.1):
+  router@2.2.0:
     dependencies:
-      debug: 4.4.3(supports-color@8.1.1)
+      debug: 4.4.3
       depd: 2.0.0
       is-promise: 4.0.0
       parseurl: 1.3.3
@@ -2411,9 +2380,9 @@ snapshots:
 
   semver@7.8.5: {}
 
-  send@1.2.1(supports-color@8.1.1):
+  send@1.2.1:
     dependencies:
-      debug: 4.4.3(supports-color@8.1.1)
+      debug: 4.4.3
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
@@ -2422,17 +2391,17 @@ snapshots:
       mime-types: 3.0.2
       ms: 2.1.3
       on-finished: 2.4.1
-      range-parser: 1.2.1
+      range-parser: 1.3.0
       statuses: 2.0.2
     transitivePeerDependencies:
       - supports-color
 
-  serve-static@2.2.1(supports-color@8.1.1):
+  serve-static@2.2.1:
     dependencies:
       encodeurl: 2.0.0
       escape-html: 1.0.3
       parseurl: 1.3.3
-      send: 1.2.1(supports-color@8.1.1)
+      send: 1.2.1
     transitivePeerDependencies:
       - supports-color
 
@@ -2500,8 +2469,6 @@ snapshots:
 
   smartcrop@2.0.5: {}
 
-  statuses@2.0.1: {}
-
   statuses@2.0.2: {}
 
   streamx@2.28.1:
@@ -2523,11 +2490,6 @@ snapshots:
     dependencies:
       '@tokenizer/token': 0.3.0
       peek-readable: 4.1.0
-
-  supports-color@8.1.1:
-    dependencies:
-      has-flag: 4.0.0
-    optional: true
 
   tar-fs@2.1.5:
     dependencies:
@@ -2574,11 +2536,11 @@ snapshots:
       - bare-abort-controller
       - react-native-b4a
 
-  telegraf@4.16.3(supports-color@8.1.1):
+  telegraf@4.16.3:
     dependencies:
       '@telegraf/types': 7.1.0
       abort-controller: 3.0.0
-      debug: 4.4.3(supports-color@8.1.1)
+      debug: 4.4.3
       mri: 1.2.0
       node-fetch: 2.7.0
       p-timeout: 4.1.0
