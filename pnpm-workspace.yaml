@@ -8,4 +8,4 @@ allowBuilds:
   canvas: true
   sharp: true
 patchedDependencies:
-  '@neoxr/quote-api': patches/@neoxr__quote-api.patch
+  "@neoxr/quote-api": patches/@neoxr__quote-api.patch

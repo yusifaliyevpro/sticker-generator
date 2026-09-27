@@ -1,13 +1,33 @@
 {
   "name": "sticker-generator",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Yusif Aliyev",
   "license": "MIT",
+  "author": "Yusif Aliyev",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.ts",
+    "start": "node src/index.ts",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "check": "greenly"
+  },
   "dependencies": {
     "@neoxr/quote-api": "1.1.1-dev",
     "canvas": "3.2.3",
     "express": "5.2.1",
     "morgan": "1.12.1"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.6",
+    "@types/morgan": "1.9.10",
+    "@types/node": "24.19.0",
+    "greenly": "1.1.6",
+    "oxfmt": "0.70.0",
+    "oxlint": "1.85.0",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=24"
   }
 }
