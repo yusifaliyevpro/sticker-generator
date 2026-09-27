@@ -1,5 +1,7 @@
-const quoteApi = require("@neoxr/quote-api");
 const { registerCustomFonts } = require("../fonts");
+// node-canvas only uses fonts registered before the first canvas is created
+registerCustomFonts();
+const quoteApi = require("@neoxr/quote-api");
 exports.routes = {
   category: "main",
   path: "/",
@@ -7,7 +9,6 @@ exports.routes = {
   method: "post",
   execution: async (req, res, next) => {
     try {
-      registerCustomFonts();
       const json = await quoteApi(req.body);
       if (!json.image)
         return res.json({

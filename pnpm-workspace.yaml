@@ -1,3 +1,11 @@
+saveExact: true
+engineStrict: true
+minimumReleaseAge: 1440
+minimumReleaseAgeExcludePrune: true
+trustPolicy: "no-downgrade"
+trustPolicyExcludePrune: true
 allowBuilds:
   canvas: true
   sharp: true
+patchedDependencies:
+  '@neoxr/quote-api': patches/@neoxr__quote-api.patch
