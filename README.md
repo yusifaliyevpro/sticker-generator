@@ -1,6 +1,6 @@
 This project was created for a WhatsApp bot. Feel free to copy and experiment.
 
-This repository is based on Wildan Izzudin's https://github.com/neoxr/quote-generator (vendored as TypeScript in `src/quote-api/`), with added font support for the Vercel environment. All credit goes to his repository.
+The quote renderer in `src/quote-api/` is a TypeScript port of Wildan Izzudin's [quote-generator](https://github.com/neoxr/quote-generator) (MIT, see its `LICENSE`).
 
 ## Usage
 
