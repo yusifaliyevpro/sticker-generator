@@ -1,16 +1,8 @@
-import { fileURLToPath } from "node:url";
-import { registerFont } from "canvas";
 import express from "express";
 import morgan from "morgan";
+import quoteApi from "./quote-api/index.ts";
 
 const creator = "@yusifaliyevpro - Yusif Aliyev";
-
-// node-canvas only uses fonts registered before its first canvas, so this runs before quote-api loads.
-// quote-api draws message text with the "NotoSans" family.
-const font = (file: string) => fileURLToPath(new URL(`../assets/fonts/${file}`, import.meta.url));
-registerFont(font("NotoSans-Regular.ttf"), { family: "NotoSans", weight: "normal" });
-registerFont(font("NotoSans-Bold.ttf"), { family: "NotoSans", weight: "bold" });
-const { default: quoteApi } = await import("@neoxr/quote-api");
 
 const app = express();
 app.disable("x-powered-by");
