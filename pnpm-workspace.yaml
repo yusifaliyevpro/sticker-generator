@@ -6,3 +6,7 @@ trustPolicy: "no-downgrade"
 trustPolicyExcludePrune: true
 allowBuilds:
   canvas: true
+# Vercel's type-check doesn't follow pnpm symlinks, so type packages must sit at the node_modules root
+publicHoistPattern:
+  - "@types/*"
+  - undici-types
