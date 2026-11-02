@@ -1,3 +1,6 @@
+// Vercel compiles only traced files, so the ambient declaration must be referenced explicitly
+// oxlint-disable-next-line typescript/triple-slash-reference
+/// <reference path="./emoji-db.d.ts" />
 import { fileURLToPath } from "node:url";
 import { type Canvas, type CanvasRenderingContext2D, createCanvas, type Image, loadImage, registerFont } from "canvas";
 import EmojiDb from "emoji-db";
