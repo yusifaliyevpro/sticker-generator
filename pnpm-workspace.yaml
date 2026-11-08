@@ -10,3 +10,6 @@ allowBuilds:
 publicHoistPattern:
   - "@types/*"
   - undici-types
+overrides:
+  body-parser: ^2.4.0
+  qs: ^6.16.1
