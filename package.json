@@ -25,7 +25,7 @@
     "@types/express": "5.0.6",
     "@types/morgan": "1.9.10",
     "@types/node": "24.19.2",
-    "greenly": "1.2.0",
+    "greenly": "1.4.0",
     "oxfmt": "0.79.0",
     "oxlint": "1.94.0",
     "typescript": "7.0.2"
