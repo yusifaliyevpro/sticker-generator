@@ -24,10 +24,10 @@
   "devDependencies": {
     "@types/express": "5.0.6",
     "@types/morgan": "1.9.10",
-    "@types/node": "24.19.2",
+    "@types/node": "24.19.4",
     "greenly": "1.4.0",
-    "oxfmt": "0.79.0",
-    "oxlint": "1.94.0",
+    "oxfmt": "0.80.0",
+    "oxlint": "1.95.0",
     "typescript": "7.0.2"
   },
   "devEngines": {
